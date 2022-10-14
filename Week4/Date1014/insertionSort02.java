@@ -24,7 +24,7 @@ public class insertionSort02 {
     public static void main(String[] args) {
         insertionSort02 s = new insertionSort02();
         int[] arr = new int[]{8, 5, 6, 2, 4};
-        arr = new int[]{8, 5, 6, 2, 4};
+
         int[] result = s.sort(arr);
         for(int x : result){
             System.out.println(x);
