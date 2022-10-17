@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class RightTriangle {
     private char letter;
+    public RightTriangle(){}
     public RightTriangle(char letter){
         this.letter = letter;
     }
