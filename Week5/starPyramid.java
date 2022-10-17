@@ -5,7 +5,7 @@ public class starPyramid {
 
     public void star(int n){
         for(int i=0; i<n; i++){
-            for(int j=0; j<n-i-1; j++) {  // 공백(위치 조정)
+            for(int j=n-i-1; j>0; j--) {  // 공백(위치 조정)
                 System.out.print(" ");
 
             }
