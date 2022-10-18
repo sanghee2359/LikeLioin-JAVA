@@ -1,14 +1,14 @@
 package Week5.Date1018;
 
 public class SquareStar {
-    private void printSquare(int n){
+    private void printSquare(int n){    // 정사각형
         for (int i = 0; i < n; i++) {
             System.out.println("***");
         }
     }
-    private void printRectangle(int n) {
-        for (int i = 0; i < n; i++) {
-            System.out.println("****");
+    private void printRectangle(int x, int y) { // 직사각형
+        for (int i = 0; i < y; i++) {
+            System.out.println("*".repeat(x));
         }
     }
     public static void main(String[] args) {
