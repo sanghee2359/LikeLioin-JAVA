@@ -18,8 +18,8 @@ public class SquareStar {
 
         System.out.println();
 
-        size = 4;
-        star.printRectangle(size);
+        int x = 5, y = 10;
+        star.printRectangle(x, y);
     }
 
 
