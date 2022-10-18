@@ -1,4 +1,4 @@
-package Week5;
+package Week5.Date1017;
 
 public class starPyramid {
     // 피라미드 = *의 위치도 신경써야 합니다.
