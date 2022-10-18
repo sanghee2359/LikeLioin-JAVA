@@ -1,4 +1,4 @@
-package Week5;
+package Week5.Date1017;
 
 public class starRhombus {
     public void upStar(int n){
