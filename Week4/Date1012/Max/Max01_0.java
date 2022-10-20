@@ -1,8 +1,8 @@
-package Week4.Date1012;
+package Week4.Date1012.Max;
 
 import java.util.Scanner;
 
-public class Max01 {
+public class Max01_0 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[9];
