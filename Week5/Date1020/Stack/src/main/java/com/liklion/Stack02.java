@@ -1,5 +1,7 @@
 package com.liklion;
 
+import java.util.EmptyStackException;
+
 public class Stack02 {
     private Integer arr[];
     private int top = 0;
@@ -22,6 +24,16 @@ public class Stack02 {
     }
 
     public int pop() {  // this.top = 2 Integer은 참조형이라서 null로 초기화가 된다
+        if(this.isEmpty()){
+//            throw new RuntimeException("스택이 비었습니다."); //throw 예외처리
+        throw new EmptyStackException();
+        }
         return this.arr[--this.top];
     }
+
+    public boolean isEmpty() {
+        boolean isEmpty = this.top == 0;
+        return isEmpty;
+    }
+
 }

@@ -5,6 +5,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.EmptyStackException;
+import java.util.Stack;
+
 public class Stack02Test {
     @BeforeEach
     void setUp() {
@@ -30,5 +33,26 @@ public class Stack02Test {
         Assertions.assertEquals(20, st.pop());
         Assertions.assertEquals(10, st.pop());
 //        st.pop() 비어있을 땐 pop이 안되도록 isEmpty
+//        Exception 예외 검증 ( 이 라인을 인터페이스로 생각하기 )
+        Assertions.assertThrows(EmptyStackException.class,()->{
+            st.pop();
+        });
+    }
+
+    @Test
+    void isEmpty() {
+        Stack02 st = new Stack02();
+        Assertions.assertTrue(st.isEmpty());
+        st.push(10);
+        Assertions.assertFalse(st.isEmpty());
+        st.pop();
+        Assertions.assertTrue(st.isEmpty());
+    }
+    @Test
+    void realStack(){
+        Stack<Integer> st = new Stack<>();
+        Assertions.assertThrows(EmptyStackException.class, ()->{
+            st.pop();
+        });
     }
 }
