@@ -12,9 +12,9 @@ public class finishPlayer {
         }
         for(String x : map.keySet()){
             if(map.get(x)>0 && map.get(x)<2){
-                System.out.println("completion :"+ x);
+//                System.out.println("completion :"+ x);
             } else {
-                answer += map.get(x);
+                answer += x;
             }
         }
         return answer;
@@ -27,6 +27,6 @@ public class finishPlayer {
         for(int i = 0; i<4; i++){
             player[i] = sc.next();
         }
-        T.hash(player);
+        System.out.println(T.hash(player));
     }
 }
