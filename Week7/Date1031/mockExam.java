@@ -1,6 +1,8 @@
 package Week7.Date1031;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /* 문제
 1. 모의고사를 볼 때 세 사람 각각 찍는 패턴이 있다. 문제는 maximum 10,000
@@ -22,7 +24,7 @@ public class mockExam {
         int[] third = new int[]{ 2, 1, 2, 3, 2, 4, 2, 5};
 
         int[] count = new int[3];
-        int[] result = new int[3];
+
         int len = 0;
         for(int i = 0; i< answer.length; i++) {
             
@@ -36,11 +38,16 @@ public class mockExam {
                 count[2]++;
             }
         }
+        int maxScore = Math.max(count[0],Math.max(count[1],count[2]));
+        List<Integer> studentWithTheMaxScore = new ArrayList<>();
         for(int i = 0; i<count.length; i++){
-            int max = 0;
-            if(max < count[i]) max = count[i];
-            else if(max == count[i]) result[i] = i;
+            if(maxScore == count[i]) studentWithTheMaxScore.add(i+1);
         }
+        int[] result = new int[studentWithTheMaxScore.size()];
+        for(int i = 0; i<studentWithTheMaxScore.size(); i++){
+            result[i] = studentWithTheMaxScore.get(i);
+        }
+
         return result;
     }
 
