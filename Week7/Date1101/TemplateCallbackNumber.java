@@ -25,23 +25,8 @@ public class TemplateCallbackNumber {
 
     public static void main(String[] args) {
         primeNumber T = new primeNumber();
-        System.out.println(T.isPrime(5, new PrimeDevider() {
-            @Override
-            public boolean StatementStrategy(int a, int b) {
-                return a < b;
-            }
-        }));
-        System.out.println(T.isPrime2(13, new PrimeDevider() {
-            @Override
-            public boolean StatementStrategy(int a, int b) {
-                return a < b/2;
-            }
-        }));
-        System.out.println(T.isPrime3(13, new PrimeDevider() {
-            @Override
-            public boolean StatementStrategy(int a, int b) {
-                return a*a < b;
-            }
-        }));
+        System.out.println(T.isPrime(5, (a,b)-> a < b));
+        System.out.println(T.isPrime2(13, (a,b)-> a < b/2));
+        System.out.println(T.isPrime3(13, (a,b)-> a*a < b));
     }
 }
