@@ -11,7 +11,8 @@ public class decimal {
     boolean isPrime(int num){
         // num = 13이니까 2부터 12까지 나누어 보기
         for(int i = 2; i < num; i++){
-            System.out.printf("[%d] remainder:%d\n",i ,num % i);
+//            System.out.printf("[%d] remainder:%d\n",i ,num % i);
+            if(num % i != 0) return false; // 나눴을 때 0이 아니면 소수가 아니다.
         }
         return true;
     }
