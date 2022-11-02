@@ -11,9 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Remove {
-    public static void main(String[] args) {
+    public int solution(int N) {
         List<Integer> list = new ArrayList<>();
-        int N = 50;
+
         for(int i = 2; i<= N; i++) {
             list.add(i);
         }
@@ -21,7 +21,12 @@ public class Remove {
             for(int i = 0;i<list.size(); i++) {
                 if (list.get(i) % j == 0 && list.get(i) > j) list.remove(i);
             }
-            System.out.printf(j+""+list+"\n");
+            //System.out.printf(j+""+list+"\n");
         }
+        return list.size();
+    }
+    public static void main(String[] args) {
+        Remove r = new Remove();
+        System.out.println(r.solution(50));
     }
 }

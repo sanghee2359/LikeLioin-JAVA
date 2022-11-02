@@ -8,10 +8,10 @@ import java.util.Arrays;
 3. 소수만 출력해보기.  checks에서 true인 num만 출력
  */
 public class CheckPrimeNumber {
-    public static void main(String[] args) {
-        int N = 50;
+    public int solution(int N){
         int[] nums = new int[N];
         boolean[] checks = new boolean[N];
+        int count = 0;
         for (int i = 2; i <= N; i++) {
             nums[i - 2] = i;
             checks[i - 2] = true;
@@ -25,8 +25,13 @@ public class CheckPrimeNumber {
         // System.out.println(Arrays.toString(checks));
         for (int k = 0; k < checks.length; k++){
             if(checks[k] == true){
-                System.out.printf((k+2) + " ");
+                count++;
             }
         }
+        return count;
+    }
+    public static void main(String[] args) {
+        CheckPrimeNumber cp = new CheckPrimeNumber();
+        System.out.println(cp.solution(10));
     }
 }
