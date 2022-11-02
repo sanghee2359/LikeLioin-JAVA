@@ -13,12 +13,24 @@ import java.util.List;
 public class Remove {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-
-        for(int i = 2; i<= 50; i++) {
+        int N = 50;
+        for(int i = 2; i<= N; i++) {
             list.add(i);
         }
         for(int i = 0; i< list.size(); i++){
             if(list.get(i)%2 == 0 && list.get(i)>2) list.remove(i); // 다 삭제되지 않음
+        }
+        System.out.println(list);
+        for(int i = 0; i<list.size(); i++){
+            if(list.get(i)%3 == 0 && list.get(i)>3) list.remove(i); // 다 삭제되지 않음
+        }
+        System.out.println(list);
+        for(int i = 0; i<list.size(); i++){
+            if(list.get(i)% 5== 0 && list.get(i)>5) list.remove(i); // 다 삭제되지 않음
+        }
+        System.out.println(list);
+        for(int i = 0; i<list.size(); i++){
+            if(list.get(i)%7 == 0 && list.get(i)>7) list.remove(i); // 다 삭제되지 않음
         }
         System.out.println(list);
     }
