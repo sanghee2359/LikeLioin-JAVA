@@ -17,21 +17,11 @@ public class Remove {
         for(int i = 2; i<= N; i++) {
             list.add(i);
         }
-        for(int i = 0; i< list.size(); i++){
-            if(list.get(i)%2 == 0 && list.get(i)>2) list.remove(i); // 다 삭제되지 않음
+        for(int j = 2; j*j <= N; j++){
+            for(int i = 0;i<list.size(); i++) {
+                if (list.get(i) % j == 0 && list.get(i) > j) list.remove(i);
+            }
+            System.out.printf(j+""+list+"\n");
         }
-        System.out.println(list);
-        for(int i = 0; i<list.size(); i++){
-            if(list.get(i)%3 == 0 && list.get(i)>3) list.remove(i); // 다 삭제되지 않음
-        }
-        System.out.println(list);
-        for(int i = 0; i<list.size(); i++){
-            if(list.get(i)% 5== 0 && list.get(i)>5) list.remove(i); // 다 삭제되지 않음
-        }
-        System.out.println(list);
-        for(int i = 0; i<list.size(); i++){
-            if(list.get(i)%7 == 0 && list.get(i)>7) list.remove(i); // 다 삭제되지 않음
-        }
-        System.out.println(list);
     }
 }
