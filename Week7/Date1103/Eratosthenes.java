@@ -18,6 +18,29 @@ public class Eratosthenes {
         for (int i = 0; i < nums.length; i++) {
             nums[i] = i+2;      // 2~50까지 nums에 채우기
         }
+
+        // 소수의 배수 지우기
+        for (int j = 0; j < nums.length; j++) {
+            int multipleOf = 2;
+            for(int i =2; i<nums.length; i+=multipleOf){
+                checks[i] = false;
+            }
+            multipleOf = 3;
+            for (int i = 4; i <nums.length ; i+=multipleOf) {
+                checks[i] = false;
+            }
+            multipleOf = 4;
+            for (int i = 6; i <nums.length ; i+=multipleOf) {
+                checks[i] = false;
+            }
+            multipleOf = 5;
+            for (int i = 8; i <nums.length ; i+=multipleOf) {
+                checks[i] = false;
+            }
+            System.out.println(Arrays.toString(checks));
+        }
+
+
         /*for (int i = 2; i <= 50; i+=2) {
             checks[i] = false; // %연산 필요없다
         }
