@@ -3,19 +3,22 @@ package Week8;
 import java.util.PriorityQueue;
 
 public class DividedArr {
-    public PriorityQueue<Integer> solution(int[] arr, int divisor) {
+    public int[] solution(int[] arr, int divisor) {
         PriorityQueue<Integer> Q = new PriorityQueue<>();
         for (int i = 0; i < arr.length; i++) {
-            Q.add(arr[i]);
+            if(arr[i] % divisor == 0){
+                Q.add(arr[i]);
+            }
         }
 //        System.out.println(Q);
+        if(Q.size() == 0 ) return new int[]{-1};
+        int [] answer = new int[Q.size()];
+        int idx = 0;
         while(!Q.isEmpty()){
-            int QNumber = Q.poll();
-            if(QNumber % divisor == 0) Q.poll(QNumber);
-            System.out.println(Q);
+            answer[idx++] = Q.poll();
         }
 
-        return Q;
+        return answer;
     }
 
     public static void main(String[] args) {
