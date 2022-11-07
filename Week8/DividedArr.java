@@ -9,7 +9,12 @@ public class DividedArr {
             Q.add(arr[i]);
         }
 //        System.out.println(Q);
-        if( % divisor == 0)
+        while(!Q.isEmpty()){
+            int QNumber = Q.poll();
+            if(QNumber % divisor == 0) Q.poll(QNumber);
+            System.out.println(Q);
+        }
+
         return Q;
     }
 
