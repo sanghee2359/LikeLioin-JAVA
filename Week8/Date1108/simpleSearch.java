@@ -12,13 +12,23 @@ public class simpleSearch {
         }
         int k = sc.nextInt();
         int idx = 0;
+        int answer = 0;
 
-        while(true){
+        while(idx < numbers.length){
             if(numbers[idx] == k){
                 break;
+            } else {
+                if(idx == numbers.length-1) {
+                    answer = -1;
+                    break;
+                }
             }
             idx++;
         }
-        System.out.println(idx+1);
+        if(answer ==-1){
+            System.out.println(answer);
+        }else {
+            System.out.println(idx + 1);
+        }
     }
 }
