@@ -11,6 +11,7 @@ public class simpleSearch {
             numbers[i] = sc.nextInt();
         }
         int k = sc.nextInt();
+
         int idx = 0;
         int answer = 0;
 
@@ -25,7 +26,8 @@ public class simpleSearch {
             }
             idx++;
         }
-        if(answer ==-1){
+
+        if(answer == -1){
             System.out.println(answer);
         }else {
             System.out.println(idx + 1);
