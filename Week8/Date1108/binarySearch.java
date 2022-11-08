@@ -22,12 +22,12 @@ public class binarySearch {
             int mid = (lt+rt)/2;
 
             // 인덱스 옮기기
-            if(mid < num) lt = mid+1;
+            if(nums[mid] < num) lt = mid+1;
             else rt = mid-1;
 
             // 같은지 비교하기
-            if(mid == num) {
-                answer = num;
+            if(nums[mid] == num) {
+                answer = mid+1;
                 break;
             }
         }
