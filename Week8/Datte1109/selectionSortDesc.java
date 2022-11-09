@@ -2,6 +2,7 @@ package Week8.Datte1109;
 
 import java.util.Arrays;
 import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
 import java.util.function.Function;
 
 interface SortStrategy{
@@ -64,6 +65,10 @@ public class selectionSortDesc {
         // 내림차순 네번째 방법
         BiFunction<Integer, Integer, Boolean> biFunction = (a, b) -> a>b;
         System.out.println(biFunction.apply(10, 20));
+
+        // Predicate
+        BiPredicate<Integer, Integer> bp = (a, b) -> a > b;
+        System.out.println(bp.test(10,20));
 
     }
 }
