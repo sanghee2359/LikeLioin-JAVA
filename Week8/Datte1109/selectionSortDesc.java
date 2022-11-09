@@ -1,6 +1,9 @@
 package Week8.Datte1109;
 
 import java.util.Arrays;
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
 interface SortStrategy{
     boolean apply(int a, int b);
 }
@@ -44,13 +47,23 @@ public class selectionSortDesc {
         T.selectionSortDesc(arr);
         System.out.println(Arrays.toString(arr));
 
-        //내림차순 정렬
+        //내림차순 정렬 - interface와 람다식 확용
         T.selectionSortDesc(arr,(a,b) -> a<b); // arr[midIdx] < arr[j]
         System.out.println(Arrays.toString(arr));
 
         //오름차순 정렬
         T.selectionSortDesc(arr,(a,b) -> a>b);
         System.out.println(Arrays.toString(arr));
+
+        // 내림차순 세번째 방법
+        Function<Integer[], Boolean> fn = (array)-> array[0] > array[1];
+        // Integer배열을 받아 boolean으로 리턴
+        // 10>20을 넣으면 false 출력
+        System.out.println(fn.apply(new Integer[]{10, 20}));
+
+        // 내림차순 네번째 방법
+        BiFunction<Integer, Integer, Boolean> biFunction = (a, b) -> a>b;
+        System.out.println(biFunction.apply(10, 20));
 
     }
 }
