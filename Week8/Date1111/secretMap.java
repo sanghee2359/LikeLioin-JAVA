@@ -24,5 +24,6 @@ public class secretMap {
         int arr1[] = new int[n];
         int arr2[] = new int[n];
 
+        System.out.println(Integer.toBinaryString(9));
     }
 }
