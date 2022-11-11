@@ -13,7 +13,8 @@ public class secretMap {
     String getBinaryString(int decNum){
         String answer = "";
         while(decNum > 0){
-            answer += decNum%2;
+            answer += decNum%2; // java는 spring+int = string
+            decNum = decNum/2;
         }
         return answer;
     }
@@ -22,13 +23,6 @@ public class secretMap {
         int n = Integer.parseInt(br.readLine());
         int arr1[] = new int[n];
         int arr2[] = new int[n];
-
-        String binaryNum = "";
-
-//        for (int i = 0; i < n; i++) {
-//            binaryNum = String.valueOf(i%2) + binaryNum;
-//            arr1[i] = Integer.parseInt(binaryNum);
-//        }
 
     }
 }
