@@ -8,19 +8,21 @@ import java.util.StringTokenizer;
 
 public class secretMap {
     public String[] solution(int n, int[] arr1, int[] arr2) {
-        String[] answer = {};
-        String sArr1[] = new String[n];
-        String sArr2[] = new String[n];
+        String[] answer = new String[n];
+//        String sArr1[] = new String[n];
+//        String sArr2[] = new String[n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                String biStr1 = getBinaryString(arr1[i]);
+                /*String biStr1 = getBinaryString(arr1[i]);
                 String biStr2 = getBinaryString(arr2[i]);
                 sArr1[i] = "0".repeat(n - biStr1.length())+biStr1; // n보다 작은만큼 repeat
-                sArr2[i] = "0".repeat(n - biStr2.length())+biStr2;
+                sArr2[i] = "0".repeat(n - biStr2.length())+biStr2;*/
+
+                answer[i] = Integer.toBinaryString(arr1[i] | arr2[i]);
             }
         }
-        System.out.println(Arrays.toString(sArr1));
-        System.out.println(Arrays.toString(sArr2));
+//        System.out.println(Arrays.toString(sArr1));
+//        System.out.println(Arrays.toString(sArr2));
         return answer;
     }
     String getBinaryString(int decNum){
