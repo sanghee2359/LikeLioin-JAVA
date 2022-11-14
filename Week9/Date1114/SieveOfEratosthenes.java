@@ -12,11 +12,29 @@ public class SieveOfEratosthenes {
         }
 
         //2를 제외한 2의 배수를 모두 지운다
-        for (int i = 2; i*i < N ; i++) {
+        for (int i = 2; i < N ; i+=2) {
             if(sieve[i] % 2 == 0 && sieve[i]>2){
                 sieve[i] = 0;
             }
-            System.out.println("2 : "+sieve[i]);
+        }
+
+        //3를 제외한 3의 배수를 모두 지운다
+        for (int i = 2; i<N ; i+=3) {
+            if(sieve[i] % 3 == 0 && sieve[i]>3){
+                sieve[i] = 0;
+            }
+        }
+
+        //4를 제외한 4의 배수를 모두 지운다
+        for (int i = 2; i< N ; i+=4) {
+            if(sieve[i] % 3 == 0 && sieve[i]>3){
+                sieve[i] = 0;
+            }
+        }
+
+        for (int i = 0; i < 49; i++) {
+
+            System.out.println("result: "+ sieve[i]);
         }
     }
 }
