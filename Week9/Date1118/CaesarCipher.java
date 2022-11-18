@@ -11,17 +11,19 @@ public class CaesarCipher {
         String answer = "";
         char[] charArray = s.toCharArray();
         for (char c : charArray) {
-            if (c >= 'A' && c <= 'Z') {
+            if(c == ' ') answer+=' '; // 공백 추가
+            else if (c >= 'A' && c <= 'Z') {
                 if (c + n > 'Z') {
-                    answer += (char)(c+n - 26); // 'A' - 'Z'
+                    answer += (char)(c+n - 26);
                 } else answer += (char)(c + n);
             }
-            if (c >= 'a' && c <= 'z') {
+            else if (c >= 'a' && c <= 'z') {
                 if (c + n > 'z') {
-                    answer += (c+n - 26);
+                    answer += (char)(c+n - 26);
                 } else answer += (char)(c + n);
             }
         }
+//        System.out.println('A'-'Z');
         return answer;
     }
     public static void main(String[] args) throws IOException {
