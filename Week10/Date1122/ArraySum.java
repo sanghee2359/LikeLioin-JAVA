@@ -8,15 +8,10 @@ import java.util.List;
 public class ArraySum {
     static int sum = 0;
     public static int sum(List<Integer> nums){
-        if(nums.isEmpty()) {
-            return 0;
-        }
-        else {
-            int last = nums.get(nums.size() - 1);
-            // list에서 꺼낸 마지막 값은 삭제
-            nums.remove(nums.size()-1);
-            return last + sum(nums);
-        }
+        if(nums.isEmpty()) return 0;
+
+        // return을 할 때 연산 결과 & (연산자 or 연산) & 재귀호출
+        return nums.remove(nums.size()-1) + sum(nums);
     }
 
     public static void main(String[] args) {
