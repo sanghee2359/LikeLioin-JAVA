@@ -1,4 +1,4 @@
-package Week10;
+package Week10.Date1122;
 
 public class Print1To100 {
     public static void print1To100(int n){
