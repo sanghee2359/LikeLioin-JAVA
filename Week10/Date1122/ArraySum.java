@@ -8,14 +8,14 @@ import java.util.List;
 public class ArraySum {
     static int sum = 0;
     public static int sum(List<Integer> nums){
-        if(nums.size() == 0) {
+        if(nums.isEmpty()) {
             return 0;
         }
         else {
-            int idx = nums.size() - 1;
-            sum += nums.get(idx);
-            System.out.println(sum);
-            return sum(nums);
+            int last = nums.get(nums.size() - 1);
+            // list에서 꺼낸 마지막 값은 삭제
+            nums.remove(nums.size()-1);
+            return last + sum(nums);
         }
     }
 
@@ -25,6 +25,6 @@ public class ArraySum {
         nums.add(3);
         nums.add(2);
         nums.add(9);
-        sum(nums);
+        System.out.println(sum(nums));
     }
 }
