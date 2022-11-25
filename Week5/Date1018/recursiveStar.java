@@ -10,6 +10,7 @@ public class recursiveStar {
     }
 
     public static void main(String[] args) {
+
         new recursiveStar().triangl(5);
     }
 }

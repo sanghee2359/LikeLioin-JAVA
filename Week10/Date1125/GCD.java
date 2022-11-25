@@ -1,10 +1,10 @@
 package Week10.Date1125;
 
-import java.io.BufferedReader;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
+
 import java.util.Scanner;
-import java.util.StringTokenizer;
+
 
 public class GCD {
     public static int GCD(int a, int b) {
