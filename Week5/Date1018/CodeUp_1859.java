@@ -1,7 +1,7 @@
 package Week5.Date1018;
-import java.util.Scanner;
+
 public class CodeUp_1859 {
-    public void trinagle(int x,String now){
+    public void trinagle(int x, String now){
         if(x==0) return;
         else{
             System.out.println(now);
@@ -10,9 +10,6 @@ public class CodeUp_1859 {
     }
 
     public static void main(String[] args) {
-        CodeUp_1859 T = new CodeUp_1859();
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        T.trinagle(n, "*");
+        new CodeUp_1859().trinagle(5,"*");
     }
 }

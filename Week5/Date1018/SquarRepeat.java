@@ -8,6 +8,7 @@ public class SquarRepeat {
     }
 
     public static void main(String[] args) {
+
         new SquarRepeat().printRectangle(4);
     }
 }
