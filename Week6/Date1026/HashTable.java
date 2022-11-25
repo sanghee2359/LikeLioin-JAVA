@@ -1,6 +1,6 @@
-package Week5.Week6.Date1026;
+package Week6.Date1026;
 
-import Week5.Week6.Date1025.HashFunction2;
+import Week6.Date1025.HashFunction2;
 
 import java.util.ArrayList;
 import java.util.HashSet;

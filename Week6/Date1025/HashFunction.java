@@ -1,4 +1,4 @@
-package Week5.Week6.Date1025;
+package Week6.Date1025;
 
 public class HashFunction {
     public int hash(String key){

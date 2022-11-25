@@ -1,4 +1,4 @@
-package Week8;
+package Week8.Date1107;
 
 public class Harshad {
     public boolean solution(int x) {

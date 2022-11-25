@@ -1,9 +1,10 @@
-package Week8;
+package Week8.Date1107;
+
+import Week8.Date1107.DividedArr;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.PriorityQueue;
 
 public class DividedArr2 {
     public int[] solution(int[] arr, int divisor) {

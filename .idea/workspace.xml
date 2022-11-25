@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="940097c6-af61-45f8-acb6-a0f66892847d" name="Changes" comment="[리스트] 피보나치 수열 구현 (재귀함수 x)">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Date1122/CodeUp1854.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week10/Date1125/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/Week4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week6/Date1027/ARacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week6/Date1028/phoneNumberList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week6/Date1030/classElection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week7/Date1101/PrimeDevider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LikeLion-JAVA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/CodeUp1851.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Date1122/CodeUp1851.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/CodeUp1853.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Date1122/CodeUp1853.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Date1018/CodeUp_1859.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Date1018/CodeUp_1859.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Date1018/SquarRepeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Date1018/SquarRepeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Date1018/recursiveStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Date1018/recursiveStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1024/KthNumSlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1024/KthNumSlice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1024/KthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1024/KthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1025/HashFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1025/HashFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1025/HashFunction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1025/HashFunction2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1026/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1026/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Date1027/finishPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1027/finishPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week6/Date1028/pocketmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1028/pocketmon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week7/Date1103/Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week7/Date1103/Eratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/Datte1109/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Datte1109/selectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/DividedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Date1107/DividedArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/DividedArr2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Date1107/DividedArr2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/Harshad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Date1107/Harshad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9/Date1114/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1114/SieveOfEratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9/Date1115/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1115/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9/Date1116/QuickSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1116/QuickSortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week9/Date1118/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1118/CaesarCipher.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G01ewbQvH5BHeo5cgLjqO2CZfB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wjdtk/git/LikeLion-JAVA&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wjdtk\git\LikeLion-JAVA\Week4\Date1012\Max" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Week5.Date1021" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bubbleSort" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week4.Date1013.bubbleSort" />
+      <module name="LikeLion-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week4.Date1013.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="940097c6-af61-45f8-acb6-a0f66892847d" name="Changes" comment="" />
+      <created>1665510785680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665510785680</updated>
+    </task>
+    <task id="LOCAL-00047" summary="이중 반복문 도입">
+      <created>1667351700066</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1667351700066</updated>
+    </task>
+    <task id="LOCAL-00048" summary="boolean 배열을 이용한 에라토스테네스의 체의 소수 찾기">
+      <created>1667353526142</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1667353526142</updated>
+    </task>
+    <task id="LOCAL-00049" summary="ArrayList풀이, boolean 배열 풀이 프로그래머스 메소드 형태로 변환">
+      <created>1667353849496</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1667353849496</updated>
+    </task>
+    <task id="LOCAL-00050" summary="에라토스테네스의 체 모듈러 연산 없이 풀이 - 초기 세팅">
+      <created>1667437377051</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1667437377051</updated>
+    </task>
+    <task id="LOCAL-00051" summary="에라토스테네스의 체 모듈러 연산 없이 풀이 - 중복코드 정리1">
+      <created>1667439280406</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1667439280406</updated>
+    </task>
+    <task id="LOCAL-00052" summary="하샤드의 수 - 나누어 떨어지는지 check">
+      <created>1667782010368</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1667782010368</updated>
+    </task>
+    <task id="LOCAL-00053" summary="나누어 떨어지는 숫자 배열 - 큐에 값 넣기">
+      <created>1667782747176</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1667782747176</updated>
+    </task>
+    <task id="LOCAL-00054" summary="나누어 떨어지는 숫자 배열 - 연산 시도 중">
+      <created>1667783347193</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1667783347193</updated>
+    </task>
+    <task id="LOCAL-00055" summary="나누어 떨어지는 숫자 배열 - PriorityQueue 풀이">
+      <created>1667784544095</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1667784544095</updated>
+    </task>
+    <task id="LOCAL-00056" summary="나누어 떨어지는 숫자 배열 - ArrayList 풀이">
+      <created>1667784865925</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1667784865925</updated>
+    </task>
+    <task id="LOCAL-00057" summary="단순 탐색 풀이">
+      <created>1667867264364</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1667867264365</updated>
+    </task>
+    <task id="LOCAL-00058" summary="조건 추가&#10;1.k를 찾았으면 데이터 k의 위치를 출력&#10;2.찾지 못했으면 -1을 출력">
+      <created>1667867684055</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1667867684055</updated>
+    </task>
+    <task id="LOCAL-00059" summary="이분탐색 문제 조건 &#10;1.k를 찾았으면 데이터 k의 위치를 출력&#10;2.찾지 못했으면 -1을 출력">
+      <created>1667870135825</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1667870135825</updated>
+    </task>
+    <task id="LOCAL-00060" summary="이분탐색 비교 부분 수정">
+      <created>1667870891826</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1667870891826</updated>
+    </task>
+    <task id="LOCAL-00061" summary="이분탐색 결과 출력 부분 수정">
+      <created>1667870976749</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1667870976749</updated>
+    </task>
+    <task id="LOCAL-00062" summary="i가 0일 때 arr[0]에 들어갈 최소값이 들어있는 idx찾기">
+      <created>1667953646102</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1667953646102</updated>
+    </task>
+    <task id="LOCAL-00063" summary="swap 수정">
+      <created>1667953821140</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1667953821140</updated>
+    </task>
+    <task id="LOCAL-00064" summary="selection 오름차순 정렬 완성">
+      <created>1667955013221</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1667955013221</updated>
+    </task>
+    <task id="LOCAL-00065" summary="selection 내림차순 정렬 - 두 가지 방법 적용">
+      <created>1667957587682</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1667957587682</updated>
+    </task>
+    <task id="LOCAL-00066" summary="selection 내림차순 정렬 &#10;Function과 BiFunction 적용">
+      <created>1667958575577</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1667958575578</updated>
+    </task>
+    <task id="LOCAL-00067" summary="selection 내림차순 정렬 &#10;BiPredicate 실습">
+      <created>1667958690148</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1667958690148</updated>
+    </task>
+    <task id="LOCAL-00068" summary="10진수를 2진수로 전환하기">
+      <created>1668127371424</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1668127371424</updated>
+    </task>
+    <task id="LOCAL-00069" summary="10진수를 2진수로 전환하기2">
+      <created>1668127451756</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1668127451756</updated>
+    </task>
+    <task id="LOCAL-00070" summary="10진수를 2진수로 전환하기3 toBinaryString()">
+      <created>1668127520798</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1668127520798</updated>
+    </task>
+    <task id="LOCAL-00071" summary="비트가 들어있는 배열을 연산">
+      <created>1668130373157</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1668130373157</updated>
+    </task>
+    <task id="LOCAL-00072" summary="비트가 들어있는 배열을 연산 - toBinaryString()">
+      <created>1668130527494</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1668130527494</updated>
+    </task>
+    <task id="LOCAL-00073" summary="문제 형식 맞추기&#10;1을 #으로, 0을 공백으로 replace&#10;배열 원소의 크기 맞추기 - repeat">
+      <created>1668131095190</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1668131095190</updated>
+    </task>
+    <task id="LOCAL-00074" summary="[에라토스테네스의 체] 2를 제외한 2의 배수 지우기">
+      <created>1668387493030</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1668387493031</updated>
+    </task>
+    <task id="LOCAL-00075" summary="[에라토스테네스의 체] 2의 배수, 3의배수, 4의배수 지우기">
+      <created>1668388126735</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1668388126735</updated>
+    </task>
+    <task id="LOCAL-00076" summary="[퀵정렬] 첫번째 로직 구현">
+      <created>1668472550327</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1668472550327</updated>
+    </task>
+    <task id="LOCAL-00077" summary="[퀵정렬] 두번째 로직 구현&#10;- left List, mid List, right List에 값을 담기&#10;- 세 리스트를 하나로 병합하는 merge()메소드 생성">
+      <created>1668475970187</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1668475970187</updated>
+    </task>
+    <task id="LOCAL-00078" summary="[퀵정렬] 초기설정&#10;- array를 이용한 풀이">
+      <created>1668559467523</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1668559467524</updated>
+    </task>
+    <task id="LOCAL-00079" summary="[퀵정렬] leftidx, rightidx를 이동하며 위치를 바꿔야할 값을 찾음">
+      <created>1668561806732</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1668561806733</updated>
+    </task>
+    <task id="LOCAL-00080" summary="[퀵정렬] 값을 교환, 남은 정렬을 위해 leftIdx++, rightIdx--를 한다">
+      <created>1668562122060</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1668562122060</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Caesar암호 풀이 완료">
+      <created>1668733364312</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1668733364313</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Caesar암호 공백 추가">
+      <created>1668734175826</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1668734175826</updated>
+    </task>
+    <task id="LOCAL-00083" summary="행렬의 덧셈 문제 풀이">
+      <created>1668735871649</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1668735871649</updated>
+    </task>
+    <task id="LOCAL-00084" summary="[재귀함수]1부터 100까지 출력">
+      <created>1669075882785</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1669075882785</updated>
+    </task>
+    <task id="LOCAL-00085" summary="[재귀함수] n만큼 * 출력">
+      <created>1669076427844</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1669076427844</updated>
+    </task>
+    <task id="LOCAL-00086" summary="[재귀함수] 1부터 n만큼 합">
+      <created>1669077420349</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1669077420350</updated>
+    </task>
+    <task id="LOCAL-00087" summary="[재귀함수] array의 모든 값 더하기 - 추측">
+      <created>1669079229628</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1669079229628</updated>
+    </task>
+    <task id="LOCAL-00088" summary="[재귀함수] array의 모든 값 더하기 - stack over flow">
+      <created>1669079737337</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1669079737337</updated>
+    </task>
+    <task id="LOCAL-00089" summary="[재귀함수] array의 모든 값 더하기 - remove">
+      <created>1669080333436</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1669080333436</updated>
+    </task>
+    <task id="LOCAL-00090" summary="[재귀함수] array의 모든 값 더하기 - return 특이사항">
+      <created>1669080560953</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1669080560953</updated>
+    </task>
+    <task id="LOCAL-00091" summary="[재귀함수] array의 모든 값 더하기 - array 자료구조 풀이">
+      <created>1669081315639</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1669081315639</updated>
+    </task>
+    <task id="LOCAL-00092" summary="[재귀함수] 자릿수의 합 구하기">
+      <created>1669163992782</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1669163992783</updated>
+    </task>
+    <task id="LOCAL-00093" summary="[재귀함수] 팩토리얼">
+      <created>1669166283085</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1669166283085</updated>
+    </task>
+    <task id="LOCAL-00094" summary="[재귀함수] 피보나치">
+      <created>1669166498714</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1669166498714</updated>
+    </task>
+    <task id="LOCAL-00095" summary="[리스트] 피보나치 수열 구현 (재귀함수 x)">
+      <created>1669167719336</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1669167719336</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="비트가 들어있는 배열을 연산" />
+    <MESSAGE value="비트가 들어있는 배열을 연산 - toBinaryString()" />
+    <MESSAGE value="문제 형식 맞추기&#10;1을 #으로, 0을 공백으로 replace&#10;배열 원소의 크기 맞추기 - repeat" />
+    <MESSAGE value="[에라토스테네스의 체] 2를 제외한 2의 배수 지우기" />
+    <MESSAGE value="[에라토스테네스의 체] 2의 배수, 3의배수, 4의배수 지우기" />
+    <MESSAGE value="[퀵정렬] 첫번째 로직 구현" />
+    <MESSAGE value="[퀵정렬] 두번째 로직 구현&#10;- left List, mid List, right List에 값을 담기&#10;- 세 리스트를 하나로 병합하는 merge()메소드 생성" />
+    <MESSAGE value="[퀵정렬] 초기설정&#10;- array를 이용한 풀이" />
+    <MESSAGE value="[퀵정렬] leftidx, rightidx를 이동하며 위치를 바꿔야할 값을 찾음" />
+    <MESSAGE value="[퀵정렬] 값을 교환, 남은 정렬을 위해 leftIdx++, rightIdx--를 한다" />
+    <MESSAGE value="Caesar암호 풀이 완료" />
+    <MESSAGE value="Caesar암호 공백 추가" />
+    <MESSAGE value="행렬의 덧셈 문제 풀이" />
+    <MESSAGE value="[재귀함수]1부터 100까지 출력" />
+    <MESSAGE value="[재귀함수] n만큼 * 출력" />
+    <MESSAGE value="[재귀함수] 1부터 n만큼 합" />
+    <MESSAGE value="[재귀함수] array의 모든 값 더하기 - 추측" />
+    <MESSAGE value="[재귀함수] array의 모든 값 더하기 - stack over flow" />
+    <MESSAGE value="[재귀함수] array의 모든 값 더하기 - remove" />
+    <MESSAGE value="[재귀함수] array의 모든 값 더하기 - return 특이사항" />
+    <MESSAGE value="[재귀함수] array의 모든 값 더하기 - array 자료구조 풀이" />
+    <MESSAGE value="[재귀함수] 자릿수의 합 구하기" />
+    <MESSAGE value="[재귀함수] 팩토리얼" />
+    <MESSAGE value="[재귀함수] 피보나치" />
+    <MESSAGE value="[리스트] 피보나치 수열 구현 (재귀함수 x)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[리스트] 피보나치 수열 구현 (재귀함수 x)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week4/Date1012/Max/Max02_1.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week4/Date1014/insertionSort02.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week6/Date1024/KthTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week6/Date1027/finishPlayer.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week8/Date1108/binarySearch.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

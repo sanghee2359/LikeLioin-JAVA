@@ -1,4 +1,4 @@
-package Week5.Week6.Date1024;
+package Week6.Date1024;
 // 우선순위 큐 : 값이 들어가며 정렬됨 (FIFO)
 /*
 0. array를 잘라서 새로 만드는 것은 메모리를 많이 사용하므로 줄이기 위한 방안으로 우선순위 큐 사용

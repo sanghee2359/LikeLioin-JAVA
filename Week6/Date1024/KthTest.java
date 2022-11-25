@@ -1,4 +1,4 @@
-package Week5.Week6.Date1024;
+package Week6.Date1024;
 
 import java.util.Arrays;
 
