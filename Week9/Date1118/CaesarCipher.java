@@ -28,9 +28,9 @@ public class CaesarCipher {
     }
     public static void main(String[] args) throws IOException {
         CaesarCipher T = new CaesarCipher();
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        /*BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s = br.readLine();
-        int n = Integer.parseInt(br.readLine());
-        System.out.println(T.solution(s,n));
+        int n = Integer.parseInt(br.readLine());*/
+        System.out.println(T.solution("abcdefghijklmnopqrstuvwxyz",14));
     }
 }

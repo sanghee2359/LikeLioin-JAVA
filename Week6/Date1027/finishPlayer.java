@@ -7,8 +7,8 @@ public class finishPlayer {
     public String hash(String[] key){
         String answer = "";
         HashMap<String,Integer> map = new HashMap<>();
-        for(String x : key){
-            map.put(x, map.getOrDefault(x, 0)+1);
+        for(int i = 0; i<key.length; i++){
+            map.put(key[i], map.getOrDefault(key[i], 0)+1);
         }
         for(String x : map.keySet()){
             if(map.get(x)>0 && map.get(x)<2){

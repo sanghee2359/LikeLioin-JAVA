@@ -13,6 +13,7 @@ public class QuickSort {
         return answer;
     }
     public List<Integer> sort(List<Integer> arr){
+        if(arr.size() <= 1) return arr;
         List<Integer> left = new ArrayList<>();
         List<Integer> right = new ArrayList<>();
         List<Integer> mid = new ArrayList<>();
@@ -28,12 +29,12 @@ public class QuickSort {
 
 //        System.out.println(left);
 //        System.out.println(right);
-        return merge(sort(left),sort(mid),sort(right));
+        return merge(sort(left),mid,sort(right));
     }
     public static void main(String[] args) {
         var arr = new int[]{20, 18, 5, 19, 5, 25, 40, 50};
         List<Integer> al = new ArrayList<>();
-        for (int i = 0; i < al.size(); i++) {
+        for (int i = 0; i < arr.length; i++) {
             al.add(arr[i]);
         }
         QuickSort qs = new QuickSort();

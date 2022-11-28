@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940097c6-af61-45f8-acb6-a0f66892847d" name="Changes" comment="[리스트] 피보나치 수열 구현 (재귀함수 x)">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Date1122/CodeUp1854.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week10/Date1125/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/Week4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week6/Date1027/ARacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week6/Date1028/phoneNumberList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week6/Date1030/classElection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week7/Date1101/PrimeDevider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LikeLion-JAVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week10/CodeUp1851.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Date1122/CodeUp1851.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week10/CodeUp1853.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Date1122/CodeUp1853.java" afterDir="false" />
+    <list default="true" id="940097c6-af61-45f8-acb6-a0f66892847d" name="Changes" comment="[재귀 함수] 꼬리재귀를 제거">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week10/Date1125/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Date1125/GCD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week5/Date1018/CodeUp_1859.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Date1018/CodeUp_1859.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week5/Date1018/SquarRepeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Date1018/SquarRepeat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week5/Date1018/recursiveStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week5/Date1018/recursiveStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1024/KthNumSlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1024/KthNumSlice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1024/KthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1024/KthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1025/HashFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1025/HashFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1025/HashFunction2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1025/HashFunction2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Week6/Date1026/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1026/HashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week6/Date1027/finishPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1027/finishPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week6/Date1028/pocketmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week6/Date1028/pocketmon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week7/Date1103/Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week7/Date1103/Eratosthenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week8/Datte1109/selectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Datte1109/selectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/DividedArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Date1107/DividedArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/DividedArr2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Date1107/DividedArr2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Harshad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/Date1107/Harshad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week9/Date1114/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1114/SieveOfEratosthenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week9/Date1115/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1115/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week9/Date1116/QuickSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week9/Date1116/QuickSortArray.java" afterDir="false" />
@@ -125,41 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665510785680</updated>
-    </task>
-    <task id="LOCAL-00047" summary="이중 반복문 도입">
-      <created>1667351700066</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1667351700066</updated>
-    </task>
-    <task id="LOCAL-00048" summary="boolean 배열을 이용한 에라토스테네스의 체의 소수 찾기">
-      <created>1667353526142</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1667353526142</updated>
-    </task>
-    <task id="LOCAL-00049" summary="ArrayList풀이, boolean 배열 풀이 프로그래머스 메소드 형태로 변환">
-      <created>1667353849496</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1667353849496</updated>
-    </task>
-    <task id="LOCAL-00050" summary="에라토스테네스의 체 모듈러 연산 없이 풀이 - 초기 세팅">
-      <created>1667437377051</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1667437377051</updated>
-    </task>
-    <task id="LOCAL-00051" summary="에라토스테네스의 체 모듈러 연산 없이 풀이 - 중복코드 정리1">
-      <created>1667439280406</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1667439280406</updated>
     </task>
     <task id="LOCAL-00052" summary="하샤드의 수 - 나누어 떨어지는지 check">
       <created>1667782010368</created>
@@ -469,7 +407,42 @@
       <option name="project" value="LOCAL" />
       <updated>1669167719336</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="[재귀함수] 최소공약수">
+      <created>1669335584582</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1669335584582</updated>
+    </task>
+    <task id="LOCAL-00097" summary="[재귀 x] 최대공약수">
+      <created>1669337037229</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1669337037229</updated>
+    </task>
+    <task id="LOCAL-00098" summary="[재귀 함수] 재귀함수 작동방식 이해하기">
+      <created>1669338873622</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1669338873622</updated>
+    </task>
+    <task id="LOCAL-00099" summary="[재귀 함수] 재귀함수 작동방식 이해하기 - 순서 작성">
+      <created>1669339532400</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1669339532400</updated>
+    </task>
+    <task id="LOCAL-00100" summary="[재귀 함수] 꼬리재귀를 제거">
+      <created>1669340492133</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1669340492133</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,11 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="비트가 들어있는 배열을 연산" />
-    <MESSAGE value="비트가 들어있는 배열을 연산 - toBinaryString()" />
-    <MESSAGE value="문제 형식 맞추기&#10;1을 #으로, 0을 공백으로 replace&#10;배열 원소의 크기 맞추기 - repeat" />
-    <MESSAGE value="[에라토스테네스의 체] 2를 제외한 2의 배수 지우기" />
-    <MESSAGE value="[에라토스테네스의 체] 2의 배수, 3의배수, 4의배수 지우기" />
     <MESSAGE value="[퀵정렬] 첫번째 로직 구현" />
     <MESSAGE value="[퀵정렬] 두번째 로직 구현&#10;- left List, mid List, right List에 값을 담기&#10;- 세 리스트를 하나로 병합하는 merge()메소드 생성" />
     <MESSAGE value="[퀵정렬] 초기설정&#10;- array를 이용한 풀이" />
@@ -510,7 +478,12 @@
     <MESSAGE value="[재귀함수] 팩토리얼" />
     <MESSAGE value="[재귀함수] 피보나치" />
     <MESSAGE value="[리스트] 피보나치 수열 구현 (재귀함수 x)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[리스트] 피보나치 수열 구현 (재귀함수 x)" />
+    <MESSAGE value="[재귀함수] 최소공약수" />
+    <MESSAGE value="[재귀 x] 최대공약수" />
+    <MESSAGE value="[재귀 함수] 재귀함수 작동방식 이해하기" />
+    <MESSAGE value="[재귀 함수] 재귀함수 작동방식 이해하기 - 순서 작성" />
+    <MESSAGE value="[재귀 함수] 꼬리재귀를 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="[재귀 함수] 꼬리재귀를 제거" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,6 +512,11 @@
           <url>file://$PROJECT_DIR$/Week8/Date1108/binarySearch.java</url>
           <line>28</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week10/Date1125/Recur.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

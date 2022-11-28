@@ -20,44 +20,19 @@ public class Eratosthenes {
         }
 
         // 소수의 배수 지우기
-        for (int j = 0; j < nums.length; j++) {
-            int multipleOf = 2;
-            for(int i =2; i<nums.length; i+=multipleOf){
+        for (int j = 0; j*j <= N; j++) {
+            int multipleOf = nums[j];
+            // 첫 항이 2
+            for(int i = nums[j]+  j; i<nums.length; i+=multipleOf){
                 checks[i] = false;
             }
-            multipleOf = 3;
-            for (int i = 4; i <nums.length ; i+=multipleOf) {
-                checks[i] = false;
-            }
-            multipleOf = 4;
-            for (int i = 6; i <nums.length ; i+=multipleOf) {
-                checks[i] = false;
-            }
-            multipleOf = 5;
-            for (int i = 8; i <nums.length ; i+=multipleOf) {
-                checks[i] = false;
-            }
-            System.out.println(Arrays.toString(checks));
         }
+        System.out.println(Arrays.toString(checks));
 
-
-        /*for (int i = 2; i <= 50; i+=2) {
-            checks[i] = false; // %연산 필요없다
+        // nums[j]+j 가 2n인 이유는?
+        int cnt = 0;
+        for (int i = 0; i < checks.length; i++) {
+            if(checks[i]) cnt++;
         }
-        for (int i = 4; i <= 50; i+=3) {
-            checks[i] = false;
-        }
-        for (int i = 6; i <= 50; i+=4) {
-            checks[i] = false;
-        }
-        for (int i = 8; i <= 50; i+=5) {
-            checks[i] = false;
-        }
-        for (int i = 10; i <= 50; i+=6) {
-            checks[i] = false;
-        }
-        for (int i = 12; i <= 50; i+=7) {
-            checks[i] = false;
-        }*/
     }
 }
